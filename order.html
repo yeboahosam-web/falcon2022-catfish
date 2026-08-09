@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Order Catfish | Falcon 2022</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Falcon 2022 Logo">
+    </div>
+    <button class="menu-toggle" id="menuToggle">
+    ☰
+</button>
+
+<nav id="mainNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Catfish</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+
+</header>
+
+
+<section class="page-header">
+
+    <p class="section-title">FALCON 2022</p>
+
+    <h1>Order Fresh Catfish</h1>
+
+    <p>
+        Fill in the form below and send your order
+        directly to us on WhatsApp.
+    </p>
+
+</section>
+
+
+<section class="order-section">
+
+    <form id="orderForm">
+
+        <label>Full Name</label>
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Enter your full name"
+            required
+        >
+
+
+        <label>Phone Number</label>
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Enter your phone number"
+            required
+        >
+
+
+        <label>Catfish Type</label>
+
+        <select id="fishType">
+
+            <option value="Fresh Catfish">
+                Fresh Catfish
+            </option>
+
+        </select>
+
+
+        <label>Quantity (kg)</label>
+
+        <input
+            type="number"
+            id="quantity"
+            min="1"
+            value="1"
+            required
+        >
+
+
+        <div class="price-box">
+
+            <p>Price per kg</p>
+
+            <h3>GH₵50</h3>
+
+        </div>
+
+
+        <div class="total-box">
+
+            <p>Total Order Amount</p>
+
+            <h2 id="totalPrice">
+                GH₵50
+            </h2>
+
+        </div>
+
+
+        <label>Order Method</label>
+
+        <select id="deliveryMethod">
+
+            <option value="Pickup">
+                Pickup
+            </option>
+
+            <option value="Delivery">
+                Delivery
+            </option>
+
+        </select>
+
+
+        <label>Delivery / Pickup Location</label>
+
+        <input
+            type="text"
+            id="location"
+            placeholder="Enter your location"
+            required
+        >
+
+
+        <label>Additional Message</label>
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Any additional information..."
+        ></textarea>
+
+
+        <button
+            type="submit"
+            class="whatsapp-order-button"
+        >
+            💬 Send Order on WhatsApp
+        </button>
+
+    </form>
+
+</section>
+
+
+<footer>
+
+    <img
+        src="images/logo.png"
+        alt="Falcon 2022"
+        class="footer-logo"
+    >
+
+    <p>
+        © 2026 Falcon 2022 Catfish Farm.
+    </p>
+
+    <p>
+        Abrepo, Ghana
+    </p>
+
+    <p>
+        📞 053 959 9236 | 024 255 7798
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+<a
+    href="https://wa.me/233539599236"
+    class="floating-whatsapp"
+    target="_blank"
+    aria-label="Chat with Falcon 2022 on WhatsApp">
+
+    💬
+
+</a>
+</html>
